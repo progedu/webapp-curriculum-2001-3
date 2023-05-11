@@ -1,5 +1,5 @@
 object Main {
 
-  def twice(f: Int => Int): Int => Int = ???
+  def twice(act: Int => Int): Int => Int = x => act(act(x))
 
 }
